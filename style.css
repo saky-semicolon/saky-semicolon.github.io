@@ -193,3 +193,62 @@
     cursor: pointer;
     border-radius: 10px;
 }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #00ffd5; /* or your theme color */
+  transition: color 0.3s ease;
+}
+
+.navbar-brand {
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00ffd5;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+  .profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .transition {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .glass-card {
+    padding: 30px 15px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.4s ease;
+    border: 2px solid transparent;
+  }
+
+  .glass-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 35px rgba(0, 255, 255, 0.15);
+  }
+
+  #profiles h6 {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .glass-card {
+      padding: 20px 10px;
+    }
+  }
