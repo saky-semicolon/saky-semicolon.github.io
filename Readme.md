@@ -33,7 +33,7 @@ This website showcases my:
 - Projects with category-based filtering
 - SEMICOLON startup feature section
 - Blog, Contact, and social media integration
-- Beautiful custom footer with “Hire Me” CTA
+- Beautiful custom footer with “Hire Me” CTA.
 
 ## 🔗 Connect with Me
 
